@@ -17,3 +17,6 @@ model_fpn.py
 with tf.variable_scope(self.name) as scope: Fully use the training data under the current task for training  
 with tf.variable_scope('trains_1') as scope: Used as a single-step transfer learning and general analysis of the detection model features, only this part of the feature is trained  
 with tf.variable_scope('trains_2') as scope: The training part of transfer learning based on single-step transfer learning
+
+Reference：Q. An, Z. Pan, H. You and Y. Hu, "Transitive Transfer Learning-Based Anchor Free Rotatable Detector for SAR Target Detection With Few Samples," in IEEE Access, vol. 9, pp. 24011-24025, 2021, doi: 10.1109/ACCESS.2021.3056663.
+
